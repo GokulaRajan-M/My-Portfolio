@@ -1,0 +1,63 @@
+body{
+
+    font-family: sans-serif;
+    background-image: url("./home_bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-section{
+    position:absolute;
+    top:0%;
+    height: 10%;
+    width:99%;
+
+}
+
+.middle{
+    position:absolute;
+    border: solid;
+    top:10%;
+    height: 80%;
+    width:99%;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+.bottom-section{
+    position:absolute;
+    display: inline-block;
+    bottom:0;
+    height: 10%;
+    width:99%;
+}
+
+.main-content{
+
+    color:rgb(228, 210, 210);
+}
+
+a{
+
+color:rgb(129, 122, 122);
+text-decoration: none !important;
+}
+
+.contact{
+    float:left;
+}
+
+.view-project{
+    float:right;
+    text-align:center;
+    
+    color:rgb(228, 210, 210);
+    
+}
+
