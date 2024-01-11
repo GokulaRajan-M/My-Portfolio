@@ -38,7 +38,7 @@ h1{
 }
 
 h1:hover{
-    animation: 5s linear 0s infinite running borderGrow;
+    animation: 3s linear 0s infinite running borderGrow;
 }
 
 
