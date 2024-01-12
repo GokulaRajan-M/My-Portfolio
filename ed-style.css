@@ -1,0 +1,108 @@
+body{
+    /*background: linear-gradient(to bottom,skyblue,lightgreen);*/
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    font-family: 'Permanent Marker', cursive;
+
+    height:560px !important;
+    width:1275px !important;
+    margin-bottom: 0;
+    
+}
+
+
+div[id^="b"]{
+    position:sticky !important;
+    left:0px;
+    border-inline: 10px solid whitesmoke;
+    border-block: 20px solid whitesmoke;
+    height:150px;
+    width:150px;
+}
+
+#title{
+    position:absolute;
+    height:190px;
+    width:170px;
+    
+    
+    line-height: 35px;
+    animation: 10s linear 0s infinite running bgChange;
+}
+
+h1{
+    padding-top:35px;
+    padding-inline:20px;
+    text-align: left;
+}
+
+img{
+    height:150px;
+}
+
+#box-2{
+    margin-left:170px;
+
+}
+
+.des{
+    position:relative;
+    border-left: 2px solid black;
+    padding-left:10px;
+    break-after: avoid-page;
+    top:-190px;
+    left:180px;
+    height:180px;
+    width: 300px; 
+}
+
+#song-1:hover{
+    background: rgb(62, 188, 226);
+    
+}
+
+#song-2:hover{
+    background: rgb(255, 255, 255);
+}
+
+#song-3:hover{
+    background:rgb(74, 189, 74);
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    
+}
+
+@keyframes bgChange{
+    30%{
+        background: rgb(74, 189, 74);
+    }
+    60%{
+        background: rgb(255, 255, 255);
+    }
+    90%{
+        background: rgb(62, 188, 226);
+    }
+}
+
+#ed-div{
+    position:relative;
+    top:-570px;
+    left:750px;
+    height:560px;
+    width:400px;
+    border: 5px solid black;
+}
+
+#ed{
+    height:560px;
+    width:400px;
+    padding:0;
+}
+
